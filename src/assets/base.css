@@ -1,0 +1,28 @@
+/* Box-sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Margin and padding reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting a consistent base font */
+html {
+  font-size: 100%;
+  line-height: 1.6;
+}
+
+/* Setting consistent default body styling */
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+
+
