@@ -3,20 +3,21 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <div class="px-[350px]">
-    <Navbar />
+  <div>
+    <Navbar class="px-[350px]" />
     <RouterView />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Navbar from "./components/navbar.vue"; // Importing the Navbar component
-import Hero from "./components/hero.vue"; // Importing the Hero component
+import Navbar from "./components/navbar.vue"; // Importing the Navbar component // Importing the Hero component
+import Footer from "./components/footer.vue";
 
 export default {
   components: {
     Navbar,
-    Hero, // Registering the component
+    Footer,
   },
 };
 </script>

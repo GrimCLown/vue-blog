@@ -6,11 +6,11 @@
         <ul
           class="flex text-center items-center text-gray-600 text-base gap-[24px] px-[115px] whitespace-nowrap"
         >
-          <li><a href="#" class="hover:text-gray-800">Home</a></li>
-          <li><a href="#" class="hover:text-gray-800">Blog</a></li>
-          <li><a href="#" class="hover:text-gray-800">Single Post</a></li>
-          <li><a href="#" class="hover:text-gray-800">Pages</a></li>
-          <li><a href="#" class="hover:text-gray-800">Contact</a></li>
+          <li><a routerLink="/">Home</a></li>
+          <li><a routerLink="/blog">Blog</a></li>
+          <li><a routerLink="/">Single Post</a></li>
+          <li><a routerLink="/">Pages</a></li>
+          <li><a routerLink="/">Contact</a></li>
         </ul>
         <div class="search">
           <div class="relative">
